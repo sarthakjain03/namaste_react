@@ -1,0 +1,22 @@
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "Namaste React Course",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarthakjain03/namaste_react.git"
+  },
+  "author": "Sarthak Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarthakjain03/namaste_react/issues"
+  },
+  "homepage": "https://github.com/sarthakjain03/namaste_react#readme",
+  "dependencies": {
+    "parcel": "^2.12.0"
+  }
+}
