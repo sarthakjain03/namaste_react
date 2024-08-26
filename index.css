@@ -1,3 +1,45 @@
-#child1 {
-    color: brown;
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-items > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items > ul > li {
+    padding: 0px 12px;
+    font-size: 22px;
+}
+
+.search {
+    padding: 10px;
+}
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 49px;
+}
+
+.res-card {
+    padding: 5px;
+    width: 200px;
+}
+
+.res-card:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.res-img {
+    width: 100%;
 }
