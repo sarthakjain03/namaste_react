@@ -33,3 +33,14 @@
 - Compact - tries to use the least amount of code possible.
 - Debuggable - Source map support to easily debug compiled code.
 - Source Map - A source map is a file that maps compiled, minified code back to the original source code files. This allows developers to debug the original source code in DevTools instead of the transformed code. Source maps can help developers quickly find the source of an error, especially when compressing code can make debugging more difficult.
+
+
+Two Types of Exports/Imports:
+- Default: export default <func>, import func from 'file_path';
+- Named: export const <func> OR export { func }, import { func } from 'file_path';
+- Can use both in a single file and import accordingly.
+
+# React Hooks
+- Normal JS utility functions.
+- useState() - for creating state variables in react. React re-renders the component if this variable changes.
+- useEffect() - 
